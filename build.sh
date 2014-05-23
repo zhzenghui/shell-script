@@ -10,7 +10,6 @@ mkdir $production
 echo "编译项目到build目录"
 echo "开始编译"
 
-echo "$build"
 cd ..
 xcodebuild clean  CONFIGURATION_BUILD_DIR="$build"
 
